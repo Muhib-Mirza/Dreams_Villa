@@ -1,0 +1,180 @@
+.head{
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 27rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.mobHead{
+    display: none;
+}
+
+.cContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.cImage{
+    width: 8rem;
+}
+
+.card{
+    width: 15rem;
+    background-color: #F3F5F1;
+    height: 13rem;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 0.9rem;
+}
+
+.cText{
+    color: black;
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cmgn{
+    margin-left: 1.5rem;
+}
+
+.ptHead{
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 17rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.ptText{
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:960px) and (min-width:930px) {
+    .head{
+        margin-top: 11.5rem;
+    }
+}
+
+@media screen and (max-width:930px) and (min-width:650px) {
+    .head{
+        margin-top: 12.5rem;
+    }
+}
+
+@media screen and (max-width:650px) and (min-width:550px) {
+    .head{
+        margin-top: 14rem;
+    }
+}
+
+@media screen and (min-width:520px) and (max-width:550px) {
+    .head{
+        margin-top: 22.5rem;
+    }
+}
+
+@media screen and (min-width:430px) and (max-width:520px) {
+    .head{
+        margin-top: 24rem;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .mobHead{
+        display: block;
+    }
+    .pcHead{
+        display: none;
+    }
+    .head{
+        margin-top: 27rem;
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .cmgn{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:650px) {
+    .cmgn{
+        margin-top: 1rem;
+        margin-left:0.1rem;
+    }
+    .cContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:746px) {
+    .thirdCmgn{
+        margin-left: 0.1rem;
+        margin-top: 1rem;
+    }
+    .fourthCmgn{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:746px) and (max-width:980px) {
+    .cContainer{
+        width: 76vw;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .thirdCmgn{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .fourthCmgn{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:980px) and (max-width:1009px) {
+    .cContainer{
+        width: 73vw;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .thirdCmgn{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .fourthCmgn{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:1009px) and (max-width:1033px) {
+    .cContainer{
+        width: 70vw;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .thirdCmgn{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .fourthCmgn{
+        margin-top: 1rem;
+    }
+}

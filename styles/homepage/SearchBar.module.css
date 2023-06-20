@@ -1,0 +1,305 @@
+.search{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    z-index: 80;
+    top: 41.8rem;
+    transition: filter 0.3s ease;
+}
+
+.searchBar{
+    width: 72vw;
+    height: 5rem;
+    border: 3.5px solid #00D4FF;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inpt{
+    width: 12rem;
+    color: rgba(0,0,0,0.5);
+    font-family: "Nunito Sans", sans-serif;
+}
+.opt{
+    margin-top: 0.5rem;
+}
+.drop{
+    margin-right: 0.7rem;
+}
+.searchBtn{
+    height: 3.25rem;
+    background-color: #00D4FF;
+    border: 3px solid #00D4FF;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: "Nunito Sans", sans-serif;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    border: 3px solid #00D4FF;
+    justify-content: center;
+    background-color: white;
+}
+
+.field{
+    border: none;
+    margin-top: 0.2rem;
+    outline: none;
+    padding-left: 1rem;
+}
+.label{
+    padding-left: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.textContainer{
+    position: absolute;
+    z-index: -1;
+    bottom:5.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+}
+.proptype{
+    width: 14rem;
+    height: 2rem;
+    background-color:#F0F0F0;
+    padding-top:10px;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 0.15rem;
+    text-align:center;
+    font-size: 18px;
+    color:rgba(0,0,0,0.5);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.rentbtn{
+    background-color: #00D4FF;
+    color: white;
+}
+@media screen and (max-width:1190px) and (min-width:1060px) {
+    .searchBar{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:1060px) and (min-width:960px) {
+    .searchBar{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:960px) and (min-width:725px) {
+ .searchBtn{
+    width: 13.5rem;
+ }   
+ .searchBar{
+    height: 9rem;
+    width: 62vw;
+ }
+}
+
+@media screen and (max-width:725px) and (min-width:630px) {
+    .searchBtn{
+        width: 13.5rem;
+     }   
+     .searchBar{
+        height: 9rem;
+        width: 70vw;
+     }  
+}
+
+@media screen and (max-width:630px) and (min-width:550px) {
+    .search{
+        top: 23rem;
+    }
+    .searchBtn{
+        width: 13.5rem;
+     }   
+     .searchBar{
+        height: 9rem;
+        width: 80vw;
+     }
+}
+
+@media screen and (max-width:700px) and (min-width:600px) {
+    .search{
+        top:20rem
+    }
+}
+
+@media screen and (max-width:750px) and (min-width:700px) {
+    .search{
+        top:21.5rem
+    }
+}
+
+@media screen and (max-width:551px) and (min-width:490px) {
+    .search{
+        top: 21rem;
+    }
+    .searchBtn{
+        width: 18.5rem;
+    }
+    .searchBar{
+        flex-direction: column;
+        height: 19rem;
+    }
+    .inpt{
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width:490px) and (min-width:390px) {
+    .search{
+        top: 20rem;
+    }
+    .searchBtn{
+        width: 18.5rem;
+    }
+    .searchBar{
+        flex-direction: column;
+        height: 19rem;
+        width: 23rem;
+    }
+    .inpt{
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width:390px) and (min-width:350px) {
+    .search{
+        top: 20rem;
+    }
+    .searchBtn{
+        width: 18.5rem;
+    }
+    .searchBar{
+        flex-direction: column;
+        height: 19rem;
+        width: 21rem;
+    }
+    .inpt{
+        width: 17.5rem;
+    }
+}
+
+@media screen and (max-width:350px) and (min-width:315px) {
+    .search{
+        top: 20rem;
+    }
+    .searchBtn{
+        width: 18.5rem;
+    }
+    .searchBar{
+        flex-direction: column;
+        height: 19rem;
+        width: 19rem;
+    }
+    .inpt{
+        width: 16rem;
+    }
+}
+@media screen and (max-width:315px) {
+    .searchBtn{
+        width: 18.5rem;
+    }
+    .searchBar{
+        flex-direction: column;
+        height: 19rem;
+        width: 15rem;
+    }
+    .inpt{
+        width: 12rem;
+    }
+    .search{
+        top: 20rem;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:750px) {
+    .search{
+        top: 24rem;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:850px) {
+    .search{
+        top: 25rem;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:900px) {
+    .search{
+        top: 26.5rem;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:960px) {
+    .search{
+        top: 28.5rem;
+    }
+}
+
+@media screen and (min-width:960px) and (max-width:1000px) {
+    .search{
+        top: 30rem;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1050px) {
+    .search{
+        top: 32rem;
+    }
+}
+
+@media screen and (min-width:1050px) and (max-width:1150px) {
+    .search{
+        top: 34rem;
+    }
+}
+
+@media screen and (min-width:1150px) and (max-width:1200px) {
+    .search{
+        top: 36rem;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1240px) {
+    .search{
+        top: 38.5rem;
+    }
+}
+
+@media screen and (max-width:960px) and (min-width:560px) {
+    .textContainer{
+        position: initial;
+    }
+}
+
+@media screen and (max-width:560px) and (min-width:455px) {
+    .textContainer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .textContainer{
+        position: initial;
+    }
+}

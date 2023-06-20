@@ -1,0 +1,235 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 90;
+  background: rgba(0, 0, 0, 0.2);
+  height: 5rem;
+  filter: brightness(1);
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 1.5rem;
+  margin-top: 1.55rem;
+  font-size: 1.2rem;
+}
+
+.wname {
+  font-size: 0.7rem;
+}
+
+.navbtn{
+  position: absolute;
+  right: 5rem;
+  margin-top: 0;
+  top: 1.45rem;
+}
+
+.btnmgn{
+  margin-top: 0;
+  color: white;
+  width: 6rem;
+  text-align: center;
+  height: 2rem;
+  border-radius: 3px;
+  font-family: "Nunito";
+  text-transform: uppercase;
+  text-align: center;
+  padding-top:3px;
+  border:3px solid #00D4FF;
+  background-color: transparent;
+  font-size: medium;
+  cursor: pointer;
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+}
+
+.navListContainer {
+  position: absolute;
+  top: 1.7rem;
+  left: 28%;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.mgn {
+  color: white;
+  width: 4rem;
+  text-align: center;
+  height: 1.5rem;
+  padding-top: 3px;
+  border-radius: 5px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 0.6rem;
+  width: 5rem;
+}
+.nomgn{
+  margin-left: 0rem !important;
+}
+.drawerIcon{
+  display: none;
+}
+.drawer{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.9);
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top:0.85rem;
+  display: none;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  overflow-y:scroll;
+}
+
+.title{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid papayawhip ;
+}
+.drwerlogo{
+  padding-bottom: 1rem;
+}
+.cross{
+  position: absolute;
+  top: 1.45rem;
+  right: 1.5rem;
+  scale: 1.5;
+}
+.listTile{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+.list{
+  display: flex;
+  margin-top: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.headHome{
+  display: inline-block;
+  padding-bottom: 0.7rem;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+.homeIcon{
+  padding-top: 0.15rem;
+  scale: 1.28;
+}
+.drawerImage{
+  position: absolute;
+  right: 2rem;
+  top: 2.3rem;
+}
+
+.btnpropt{
+  width:11rem;
+  height: 2.5rem;
+
+}
+
+@media screen and (max-width:1025px) and (min-width:950px) {
+  .btnpropt{
+    width: 10rem;
+    font-size: 15px;
+  }
+  .propt{
+    right: 3rem;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .propt{
+    right: 2.5rem;
+  }
+  .btnpropt{
+    width: 9rem;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:930px) and (min-width:850px) {
+  .navbtn{
+    right: 2.5rem;
+  }
+  .navListContainer{
+    left:21%
+  }
+}
+
+@media screen and (max-width:850px) and (min-width:780px) {
+  .navbtn{
+    right: 2rem;
+  }
+  .navListContainer{
+    left: 15.5%;
+  }
+}
+
+@media screen and (max-width:780px) and (min-width:760px) {
+  .navbtn{
+    right: 1.5rem;
+  }
+  .navListContainer{
+    left:19.5%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .navbar {
+    background-color: black;
+  }
+  .navListContainer {
+    display: none;
+  }
+  .navbtn{
+    display: none;
+  }
+  .drawer{
+    display: block;
+  }
+  .drawerIcon{
+    display: block;
+  }
+  .mgn{
+    width: 6rem;
+  }
+  .link{
+    margin-left: 0;
+  }
+  .drawerpropt{
+    width: 12rem;
+  }
+}

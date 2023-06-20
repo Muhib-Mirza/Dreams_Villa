@@ -1,0 +1,113 @@
+        .house1 {
+            background-image: url("../public/Rectangle5.png");
+            background-size: cover;
+            background-position: center;
+            width: 100vw;
+            height: 95vh;
+            overflow-y: hidden;
+        }
+        
+        .HELLO {
+            color: aliceblue;
+            height: 78px;
+            width: 305px;
+            margin-left: 31rem;
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+        
+        .shop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            margin-top: 14rem;
+        }
+        
+        .vector4 {
+            color: aliceblue;
+        }
+        
+        .vector7 {
+            color: aliceblue;
+            margin-left: 1rem;
+        }
+        
+        .vector9 {
+            margin-left: 1rem;
+        }
+        
+        .vector5 {
+            color: whitesmoke;
+        }
+        
+        .vector10 {
+            color: whitesmoke;
+        }
+        
+        .vector10:hover {
+            color: black;
+        }
+        
+        .vector5:hover {
+            color: black;
+        }
+        
+        @media screen and (min-width:320px) and (max-width:362px) {
+            .house1 {
+                width: 405vw;
+                height: 100vh;
+            }
+            .HELLO {
+                margin-left: 34rem;
+            }
+            .vector4 {
+                margin-left: 66rem;
+            }
+        }
+        
+        @media screen and (min-width:363px) and (max-width:386px) {
+            .house1 {
+                width: 399vw;
+                height: 100vh;
+            }
+            .vector4 {
+                margin-left: 66rem;
+            }
+            .HELLO {
+                margin-left: 37rem;
+            }
+        }
+        
+        @media screen and (min-width:386px) and (max-width:430px) {
+            .house1 {
+                width: 399vw;
+                height: 100vh;
+            }
+            .vector4 {
+                margin-left: 68rem;
+            }
+            .HELLO {
+                margin-left: 39rem;
+            }
+        }
+        
+        @media screen and (min-width:431px) and (max-width:520px) {
+            .house1 {
+                width: 364vw;
+                height: 123vh;
+            }
+            .vector4 {
+                margin-left: 74rem;
+            }
+            .HELLO {
+                margin-left: 46rem;
+            }
+        }
+        
+        @media screen and (min-width:521px) and (max-width:620px) {
+            .house1 {
+                width: 299vw;
+                height: 123vh;
+            }
+        }

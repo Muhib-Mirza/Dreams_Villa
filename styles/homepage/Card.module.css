@@ -1,0 +1,271 @@
+.container{
+    margin-top: 3rem;
+    width: 95vw;
+    margin-bottom: 1rem;
+}
+
+.head{
+    background-color: rgba(216,216,216,0.44);
+}
+
+.item{
+    height: 24rem;
+    width: 17rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+}
+
+.link{
+    display: block;
+    height: 23rem;
+    width: 16rem;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    margin: 0;
+    background-color:white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.cImage{
+    width: 16rem;
+    height:185.8px;
+}
+
+.dealer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.9rem;
+    margin-left: 2rem;
+}
+
+.name{
+    font-size: small;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 0.47rem;
+}
+
+.location{
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.locName{
+    margin-left: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;    
+    overflow: hidden;
+    width: 69%;
+    height: 1.5rem;
+}
+
+.locIcon{
+    margin-left: 2rem;
+}
+
+.sale{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    background-color: rgba(255,0,0,0.8);
+    width: 3rem;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    justify-content: space-evenly;
+}
+
+.iconContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0.9rem;
+}
+
+.iconContainer2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rpic{
+    padding-left: 0.2rem;
+    width: 1.55rem;
+    filter: invert(0.2);
+    padding-top: 0.1rem;
+}
+
+.bpic{
+    width: 1.2rem;
+    filter: invert(0.2);
+    padding-left: 1rem;
+}
+
+.wpic{
+    width: 1rem;
+    filter: invert(0.3);
+}
+
+.rno{
+    margin-left: 0.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgba(0,0,0,0.4);
+}
+
+.priceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.price{
+    width: 5rem;
+    height: 1.5rem;
+    background-color: #00D4FF;
+    border: none;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 0.2rem;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.unit{
+    font-size: small;
+}
+
+.pkPrice{
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgba(0,0,0,0.7);
+    font-weight: 800;
+    width: 6rem;
+    text-align: center;
+    height: 1.3rem;
+    margin-left: 0.7rem;
+}
+
+@media screen and (min-width:1024px) and (max-width:1100px) {
+    .container{
+        width: 87vw !important;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1024px) {
+    .container{
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:900px) {
+    .container{
+        width: 63vw;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:900px) {
+    .container{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:800px) {
+    .container{
+        width: 75vw;
+    }
+}
+
+@media screen and (min-width:690px) and (max-width:750px) {
+    .container{
+        width: 82vw;
+        
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:690px) {
+    .container{
+        width: 95vw;
+        
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:560px) {
+    .container{
+        width: 49vw;
+        
+    }
+}
+
+@media screen and (max-width:560px) and (min-width:510px) {
+    .container{
+        width: 52vw;
+        
+    }
+}
+
+@media screen and (max-width:510px) and (min-width:480px) {
+    .container{
+        width: 55vw;
+        
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:440px) {
+    .container{
+        width: 60vw;
+        
+        
+    }
+}
+
+@media screen and (max-width:440px) and (min-width:410px) {
+    .container{
+        width: 65vw;
+        
+    }
+}
+
+@media screen and (max-width:410px) and (min-width:380px) {
+    .container{
+        width: 70vw;
+        
+    }
+}
+
+@media screen and (max-width:380px) and (min-width:350px) {
+    .container{
+        width: 85vw;
+        margin-left: 3.3rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .container{
+        width: 90vw;
+        margin-left: 2rem;
+    }
+}

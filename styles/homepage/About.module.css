@@ -1,0 +1,399 @@
+.container {
+  width: 85vw;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.image {
+  width: 21.2rem;
+  height: 58.1rem;
+}
+
+.aboutSection {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.aboutHead {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  width: 30rem;
+  margin-top: 0.5rem;
+}
+
+.mobAboutHead {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  width: 30rem;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.mobAboutPic{
+  display: none;
+}
+
+.aboutText {
+  margin-top: 2rem;
+  width: 30rem;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.years {
+  display: inline-block;
+  width: 15rem;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.property {
+  display: inline-block;
+  width: 15rem;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 1rem;
+}
+
+.postfix {
+  font-size: 1.9rem;
+}
+
+.realtor {
+  display: inline-block;
+  width: 15rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.aboutPic {
+  width: 35rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .container {
+        width: 95vw;
+        margin-top: 5rem;
+      }
+      .image {
+        width: 19.2rem;
+        height: 57.7rem;
+      }
+      .aboutSection {
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .aboutText {
+        width: 25rem;
+        margin-top: 1rem;
+      }
+      .aboutPic {
+        height: 24rem;
+        width: auto;
+      }
+      .aboutHead {
+        display: block;
+        width: 22rem;
+        font-size: 1.9rem;
+      }
+      .years{
+        width: 14rem;
+      }
+      .realtor{
+        width: 14rem;
+      }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {
+  .container {
+    width: 95vw;
+    margin-top: 5rem;
+  }
+  .image {
+    width: 19.2rem;
+    height: 52.8rem;
+  }
+  .aboutSection {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutText {
+    width: 25rem;
+    margin-top: 1rem;
+  }
+  .aboutPic {
+    height: 19rem;
+    width: auto;
+  }
+  .aboutHead {
+    display: block;
+    width: 22rem;
+    font-size: 1.9rem;
+  }
+  .years{
+    width: 14rem;
+  }
+  .realtor{
+    width: 14rem;
+  }
+}
+@media screen and (min-width:800px) and (max-width:870px) {
+    .container {
+        width: 97vw;
+        margin-top: 5rem;
+      }
+      .image {
+        width: 19.2rem;
+        height: 50rem;
+      }
+      .aboutSection {
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .aboutText {
+        width: 25rem;
+        margin-top: 1rem;
+      }
+      .aboutPic {
+        height: 16.5rem;
+        width: auto;
+      }
+      .aboutHead {
+        display: block;
+        width: 22rem;
+        font-size: 1.9rem;
+      }
+      .years{
+        width: 13rem;
+        font-size: 0.94rem;
+      }
+      .realtor{
+        width: 12rem;
+        font-size: 0.94rem;
+      } 
+}
+@media screen and (min-width: 660px) and (max-width: 800px) {
+  .container {
+    width: 90vw;
+    margin-top: 4.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .image{
+    width: 16rem;
+    height: 45rem;
+  }
+  .aboutSection {
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText {
+    width: 24rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .aboutPic{ 
+    display: none;
+  }
+  .counterContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutHead {
+    display: block;
+    text-align: center;
+    width: 17rem;
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 660px) and (min-width: 600px) {
+  .container {
+    width: 90vw;
+    margin-top: 4.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .image{
+    width: 15rem;
+    height: 47rem;
+  }
+  .aboutSection {
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText {
+    width: 22rem;
+    text-align:center;
+    margin-top: 1rem;
+  }
+  .counterContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutPic {
+    display: none;
+  }
+  .aboutHead {
+    display: block;
+    text-align: center;
+    width: 17rem;
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  .container {
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+  }
+  .image {
+    display: none;
+  }
+  .aboutSection {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText {
+    width: 29rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .counterContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutPic {
+    display: none;
+  }
+  .mobAboutPic{
+    display: block;
+    height: 20rem;
+    width: auto;
+  }
+  .aboutHead {
+    display: block;
+    text-align: center;
+    width: 17rem;
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .container {
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+  }
+  .image {
+    display: none;
+  }
+  .aboutSection {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText {
+    font-size: small;
+    width: 22rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .counterContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutPic {
+    display: none;
+    margin-top: 1rem;
+  }
+  .mobAboutPic{
+    height: 15.5rem;
+    width: auto;
+    display: block;
+  }
+  .mobAboutHead {
+    display: block;
+    font-size: 1.5rem;
+    width: 8rem;
+  }
+  .aboutHead {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+  }
+  .image {
+    display: none;
+  }
+  .aboutSection {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutText {
+    font-size: small;
+    width: 19rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .counterContainer {
+    margin-top:1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutPic {
+    display: none;
+    margin-top: 1rem;
+  }
+  .mobAboutPic{
+    height: 13rem;
+    width: auto;
+    display: block;
+  }
+  .mobAboutHead {
+    display: block;
+    font-size: 1.5rem;
+    width: 8rem;
+  }
+  .aboutHead {
+    display: none;
+  }
+}

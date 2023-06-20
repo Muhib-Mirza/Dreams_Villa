@@ -1,0 +1,271 @@
+.container{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../public/bg-01.jpg");
+}
+
+.whiteBox{
+    background-color: rgba(255,255,255,0.9);
+    width:100vw;
+    height: 110vh;
+    opacity:0.85;
+}
+
+.form{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+    width: 40vw;
+    height: 38rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    overflow: hidden;
+    background-color: #00d5ff;
+    box-shadow: 5px 5px 8px rgba(255,255,255,0.2);
+}
+
+.logo{
+    background-color: white;
+    border-radius: 50%;
+    width:8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:0.4rem;
+    margin-top: 2rem;
+}
+
+.logoimage{
+    width:4rem;
+    filter:invert(0.2)
+}
+
+.heading{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.inptContainer{
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.input{
+    width:20rem;
+    height: 2rem;
+    outline: none;
+    padding-top: 7px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgba(255,255,255,1);
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: medium;
+    padding-left: 0.2rem;
+    transition:all 0.2s ease;
+}
+
+.input::placeholder{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    padding-left: 2rem;
+}
+
+.image{
+    filter: invert(1);
+    position:absolute;
+    width:1.5rem;
+    left:0;
+    bottom:0.5rem;
+}
+
+.btn{
+    width: 9rem;
+    height: 3rem;
+    color: rgba(0,0,0,0.6);
+    font-size: 18px;
+    font-weight:700;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+
+.sign{
+    color: whitesmoke;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.link{
+    text-decoration: underline;
+    color: white;
+    margin-left:0.5rem;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.home{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.backbtn{
+    width: 5rem;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    background-color: #00d5ff;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size:15px;
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+    .whiteBox{
+        width: 101vw;
+    }
+    .container{
+        width: 101vw;
+    }
+    .form{
+        width: 55vw;
+        height: 31rem;
+        top:0.5rem;
+        gap:1rem;
+    }   
+    .input{
+        width: 20rem;
+    }
+    .logo{
+        width:7rem;
+        height:7rem;
+    }
+    .heading{
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    .whiteBox{
+        width: 101vw;
+    }
+    .container{
+        width: 101vw;
+    }
+    .form{
+        width: 70vw;
+        height: 31rem;
+        top:0.5rem;
+        gap:1rem;
+    }   
+    .input{
+        width: 20rem;
+    }
+    .logo{
+        width:7rem;
+        height:7rem;
+    }
+    .heading{
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:600px) {
+    .whiteBox{
+        width: 101vw;
+    }
+    .container{
+        width: 101vw;
+    }
+    .form{
+        width: 65vw;
+        height: 31rem;
+        top:0.5rem;
+        gap:1rem;
+    }   
+    .input{
+        width: 20rem;
+    }
+    .logo{
+        width:7rem;
+        height:7rem;
+    }
+    .heading{
+        margin-bottom: 0rem;
+    }
+    .sign{
+        font-size: small;
+    }
+}
+
+@media screen and (min-width:370px) and (max-width:550px) {
+    .whiteBox{
+        width: 101vw;
+    }
+    .container{
+        width: 101vw;
+    }
+    .form{
+        width: 90vw;
+        height: 31rem;
+        top:0.5rem;
+        gap:1rem;
+    }   
+    .input{
+        width: 18rem;
+    }
+    .logo{
+        width:7rem;
+        height:7rem;
+    }
+    .heading{
+        margin-bottom: 0rem;
+    }
+    .sign{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .whiteBox{
+        width: 101vw;
+    }
+    .container{
+        width: 101vw;
+    }
+    .form{
+        width: 90vw;
+        height: 31rem;
+        top:0.5rem;
+        gap:1rem;
+    }   
+    .input{
+        width: 15rem;
+    }
+    .logo{
+        width:7rem;
+        height:7rem;
+    }
+    .heading{
+        margin-bottom: 0rem;
+    }
+    .sign{
+        font-size: small;
+    }
+}

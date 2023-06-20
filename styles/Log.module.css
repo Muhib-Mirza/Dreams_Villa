@@ -1,0 +1,138 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slidercontainer{
+    width: 50vw;
+    height: 50vh;
+}
+
+.cont{
+    width: 100%;
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+    width: 40vw;
+    height: 38rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    overflow: hidden;
+    background-color: #00d5ff;
+    box-shadow: 5px 5px 8px rgba(255,255,255,0.2);
+}
+
+.logo{
+    background-color: white;
+    border-radius: 50%;
+    width:8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:0.4rem;
+    margin-top: 2rem;
+}
+
+.logoimage{
+    width:4rem;
+    filter:invert(0.2)
+}
+
+.heading{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.inptContainer{
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.input{
+    width:20rem;
+    height: 2rem;
+    outline: none;
+    padding-top: 7px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgba(255,255,255,1);
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: medium;
+    padding-left: 0.2rem;
+    transition:all 0.2s ease;
+}
+
+.input::placeholder{
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    padding-left: 2rem;
+}
+
+.image{
+    filter: invert(1);
+    position:absolute;
+    width:1.5rem;
+    left:0;
+    bottom:0.5rem;
+}
+
+.btn{
+    width: 9rem;
+    height: 3rem;
+    color: rgba(0,0,0,0.6);
+    font-size: 18px;
+    font-weight:700;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+
+.sign{
+    color: whitesmoke;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.link{
+    text-decoration: underline;
+    color: white;
+    margin-left:0.5rem;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.home{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.backbtn{
+    width: 5rem;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    background-color: #00d5ff;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size:15px;
+}
