@@ -8,15 +8,38 @@
 
 .slidercontainer{
     width: 50vw;
-    height: 50vh;
 }
 
-.cont{
+.sliderbody{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 26rem;
 }
 
-.form{
+.sliderimage{
+    margin-bottom: 0.5rem;
+    width: 37rem;
+}
+
+.swiper{
+    height: 29rem;
+}
+
+.slidertext{
+    margin-top: 0.6rem;
+    text-align: center;
+    width: 19rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.sliderhead{
+    font-family: "Nunito Sans", sans-serif;
+}
+/* .form{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -135,4 +158,4 @@
     color: whitesmoke;
     font-weight: 700;
     font-size:15px;
-}
+} */

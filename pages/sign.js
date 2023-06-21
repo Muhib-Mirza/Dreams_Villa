@@ -1,8 +1,10 @@
 // Import Swiper styles
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/navigation";
-import { Autoplay, Pagination, EffectCreative, Navigation } from "swiper";
+import "swiper/css/pagination";
+import { Autoplay, Pagination, EffectCreative } from "swiper";
+
+
 import style from "../styles/Log.module.css"
 import { useState } from "react";
 import Head from "next/head";
@@ -87,8 +89,8 @@ const Signin = () => {
       <div className={style.container}>
       <div className={style.slidercontainer}>
       <Swiper
-        navigation={true}
         spaceBetween={30}
+        pagination={true}
         grabCursor={true}
         effect={"creative"}
         loop={true}
@@ -106,19 +108,33 @@ const Signin = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay, Navigation, EffectCreative]}
-        className="mySwiper"
+        modules={[Autoplay, Pagination, EffectCreative]}
+        className={`mySwiper ${style.swiper}`}
       >
         <SwiperSlide>
-            <div className={style.cont}>
-            <img src="/login1.svg" alt="log" />
+            <div className={style.sliderbody}>
+            <img src="/login1.svg" alt="log" className={style.sliderimage} />
+            <h3 className={style.sliderhead}>Browse a Wide Range of Properties</h3>
+            <div className={style.slidertext}>
+              Explore thousand of property listings and save your favorites across devices
+            </div>
             </div>
             </SwiperSlide>
-        <SwiperSlide><img src="/login2.svg" alt="log" /></SwiperSlide>
+        <SwiperSlide>
+        <div className={style.sliderbody}>
+            <img src="/login2.svg" alt="log" className={style.sliderimage} />
+            <h3 className={style.sliderhead}>
+              Empowering Your Real Estate Journey
+            </h3>
+            <div className={style.slidertext}>
+              Join the Million of Users on Dream Villa and Take Your Real Estate Journey to the Next Level
+            </div>
+            </div>
+        </SwiperSlide>
         
       </Swiper>
       </div>
-      <form onSubmit={handleSubmit} className={style.form}>
+      {/* <form onSubmit={handleSubmit} className={style.form}>
           <div className={style.logo}>
             <img src="/logo.png" alt="" className={style.logoimage} />
           </div>
@@ -201,8 +217,9 @@ const Signin = () => {
           <div className={style.sign} style={{marginTop:"0.5rem"}} >
             Don't have an Account?<a href="/register" className={style.link} >Register Now</a>
           </div>
-        </form>
+        </form> */}
       </div>
+      <ToastContainer />
         </>
      );
 }
