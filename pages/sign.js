@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from "next/router";
+import Navbar from "@/Component/Homepage/Navbar";
 
 const Signin = () => {
     const router = useRouter();
@@ -86,13 +87,13 @@ const Signin = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/house.png" />
   </Head>
+  <Navbar />
       <div className={style.container}>
       <div className={style.slidercontainer}>
       <Swiper
         spaceBetween={30}
         pagination={true}
         grabCursor={true}
-        effect={"creative"}
         loop={true}
         creativeEffect={{
           prev: {
@@ -134,7 +135,7 @@ const Signin = () => {
         
       </Swiper>
       </div>
-      {/* <form onSubmit={handleSubmit} className={style.form}>
+      <form onSubmit={handleSubmit} className={style.form}>
           <div className={style.logo}>
             <img src="/logo.png" alt="" className={style.logoimage} />
           </div>
@@ -217,7 +218,7 @@ const Signin = () => {
           <div className={style.sign} style={{marginTop:"0.5rem"}} >
             Don't have an Account?<a href="/register" className={style.link} >Register Now</a>
           </div>
-        </form> */}
+        </form>
       </div>
       <ToastContainer />
         </>
