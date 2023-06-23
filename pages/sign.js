@@ -13,6 +13,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from "next/router";
 import Navbar from "@/Component/Homepage/Navbar";
+import Fotter from "@/Component/Homepage/Fotter";
 
 const Signin = () => {
     const router = useRouter();
@@ -222,6 +223,7 @@ const Signin = () => {
         
       <div className={style.blackBox}></div>
       </div>
+      <Fotter/ >
       <ToastContainer />
         </>
      );

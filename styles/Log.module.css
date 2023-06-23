@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-evenly;
     background: rgba(0,0,0,0.3) url("../public/loginbacl.jpeg");
-    height: 100vh;
+    height: auto;
 }
 
 .slidercontainer{
@@ -126,7 +126,7 @@
 .btn{
     width: 9rem;
     height: 3rem;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.8);
     font-size: 18px;
     font-weight:700;
     transition: all 0.5s ease-in-out;
@@ -171,12 +171,29 @@
     font-size:15px;
 }
 
-@media screen and (max-width:400px) {
+
+@media screen and (max-width:750px) {
     .slidercontainer{
         display: none;
     }
     .container{
-        margin-top: 5rem;
+        margin-top: 3rem;
         align-items: flex-end;
+    }
+    .form{
+        width: 19rem;
+        height: 28rem;
+        background-color: rgba(0,0,0,0.8);
+    }
+    .input{
+        width: 17rem;
+    }
+    .logo{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
+    }
+    .heading{
+        margin-bottom: 0;
     }
 }
