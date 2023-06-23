@@ -21,6 +21,9 @@ body{
     display:none
 }
 
+.swiper-pagination-bullet{
+    background-color: antiquewhite !important;
+}
 @media screen and (max-width:600px) {
     .mySwiper{
         margin-top: 5rem;

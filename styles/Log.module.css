@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
     align-items: center;
     justify-content: center;
     height: 26rem;
@@ -43,6 +42,13 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
+.blackBox{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+
 .form{
     display: flex;
     align-items: center;
@@ -52,9 +58,10 @@
     height: 30rem;
     border-radius: 10px;
     overflow: hidden;
-    background-color: salmon;
     box-shadow: 5px 5px 8px rgba(255,255,255,0.2);
     margin-top: 5rem;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
 }
 
 .logo{
@@ -162,4 +169,14 @@
     color: whitesmoke;
     font-weight: 700;
     font-size:15px;
+}
+
+@media screen and (max-width:400px) {
+    .slidercontainer{
+        display: none;
+    }
+    .container{
+        margin-top: 5rem;
+        align-items: flex-end;
+    }
 }
