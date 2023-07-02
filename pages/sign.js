@@ -92,7 +92,7 @@ const Signin = () => {
       <div className={style.container}>
       <div className={style.slidercontainer}>
       <Swiper
-        spaceBetween={30}
+        spaceBetween={50}
         pagination={true}
         grabCursor={true}
         loop={true}

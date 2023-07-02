@@ -4,12 +4,14 @@
     align-items: center;
     justify-content: space-evenly;
     background: rgba(0,0,0,0.3) url("../public/loginbacl.jpeg");
-    height: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .slidercontainer{
     width: 50vw;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .sliderbody{
@@ -58,8 +60,8 @@
     height: 30rem;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 5px 5px 8px rgba(255,255,255,0.2);
-    margin-top: 5rem;
+    box-shadow: 3px 3px 3px rgba(255,255,255,0.4);
+    margin-top: 6rem;
     background-color: rgba(0,0,0,0.3);
     z-index: 10;
 }
@@ -67,7 +69,7 @@
 .logo{
     background-color: white;
     border-radius: 50%;
-    width:5.5rem;
+    width:6rem;
     height: 6rem;
     display: flex;
     align-items: center;
@@ -77,7 +79,7 @@
 }
 
 .logoimage{
-    width:3rem;
+    width:3.8rem;
     filter:invert(0.2)
 }
 
@@ -86,7 +88,6 @@
     text-transform: uppercase;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
-    margin-bottom: 2rem;
 }
 
 .inptContainer{
@@ -152,46 +153,81 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
-.home{
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .slidercontainer{
+        width: 40rem;
+        margin-top: 6rem;
+    }
+    .form{
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+    .sign{
+        margin-bottom: 0.5rem;
+    }
+    .logo{
+        margin-top: 1rem;
+        width: 6rem;
+        height: 6rem;
+    }
+    .logoimage{
+        width: 4rem;
+    }
+    .heading{
+        margin-bottom: 0;
+    }
 }
 
-.backbtn{
-    width: 5rem;
-    cursor: pointer;
-    height: 2rem;
-    border-radius: 7px;
-    border: none;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    background-color: #00d5ff;
-    color: whitesmoke;
-    font-weight: 700;
-    font-size:15px;
+@media screen and (min-width:750px) and (max-width:1000px) {
+    .container{
+        height: 100vh;
+    }
+    .slidercontainer{
+        display: none;
+    }
+    .form{
+        height: 45rem;
+        width: 40rem;
+        background-color: rgba(0,0,0,0.6);
+        gap: 3rem;
+    }
+    .input{
+        width: 30rem;
+    }
+    .logo{
+        margin-top: 2rem;
+        width: 9rem;
+        height: 9rem;
+    }
+    .logoimage{
+        width: 6rem;
+    }
 }
-
 
 @media screen and (max-width:750px) {
     .slidercontainer{
         display: none;
     }
     .container{
-        margin-top: 3rem;
-        align-items: flex-end;
+        height: 100vh;
+        align-items: center;
     }
     .form{
-        width: 19rem;
-        height: 28rem;
+        width: 23rem;
+        height: 30rem;
         background-color: rgba(0,0,0,0.8);
     }
     .input{
         width: 17rem;
     }
     .logo{
-        width: 5rem;
-        height: 5rem;
-        margin-top: 1rem;
+        width: 6rem;
+        height: 6rem;
+        
+    }
+    .logoimage{
+        width: 4rem;
     }
     .heading{
         margin-bottom: 0;
