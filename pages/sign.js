@@ -115,7 +115,7 @@ const Signin = () => {
       >
         <SwiperSlide>
             <div className={style.sliderbody}>
-            <img src="/w.jpeg" alt="log" className={style.sliderimage} />
+            <img src="/build.jpeg" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>Browse a Wide Range of Properties</h3>
             <div className={style.slidertext}>
               Explore thousand of property listings and save your favorites across devices
@@ -124,7 +124,7 @@ const Signin = () => {
             </SwiperSlide>
         <SwiperSlide>
         <div className={style.sliderbody}>
-            <img src="/login2.svg" alt="log" className={style.sliderimage} />
+            <img src="/y.jpg" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>
               Empowering Your Real Estate Journey
             </h3>
@@ -223,7 +223,7 @@ const Signin = () => {
         
       <div className={style.blackBox}></div>
       </div>
-      <Fotter/ >
+      <Fotter />
       <ToastContainer />
         </>
      );

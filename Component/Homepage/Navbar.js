@@ -64,9 +64,7 @@ const Navbar = (props) => {
       <div className={style.logo}>
             Dream Villa
             <div className={style.wname}>Real Estate Agency</div>
-          </div>
-          {
-            props.flag ? props.flag2 ? 
+          </div> 
             <motion.a className={`${style.link} ${style.navbtn} ${style.propt}`} href="/addproperty"
             style={{
               top:"1.2rem"
@@ -92,52 +90,6 @@ const Navbar = (props) => {
               Submit Property
             </motion.button>
           </motion.a>
-            :
-            <motion.a className={`${style.link} ${style.navbtn}`} href="/joinus">
-              <motion.button
-              initial={{
-                y:-50,
-                opacity:0
-              }}
-              animate={{
-                y:0,
-                opacity:1,
-              }}
-              transition={{
-                type:"tween",
-                delay:1.2,
-                duration:0.2,
-              }}
-              whileTap={{
-                scale:0.85
-              }}
-                className={`${style.btnmgn}`}>
-                Join Us
-              </motion.button>
-            </motion.a>
-            :<motion.a className={`${style.link} ${style.navbtn}`} href="/login">
-            <motion.button
-            initial={{
-              y:-50,
-              opacity:0
-            }}
-            animate={{
-              y:0,
-              opacity:1,
-            }}
-            transition={{
-              type:"tween",
-              delay:1.2,
-              duration:0.2,
-            }}
-            whileTap={{
-              scale:0.85
-            }}
-              className={`${style.btnmgn}`}>
-              LogIn
-            </motion.button>
-          </motion.a>
-            }
         <div className={style.navListContainer}>
           <motion.ul className={style.navList}
           variants={parentNav}
@@ -184,8 +136,7 @@ const Navbar = (props) => {
                 Contact
               </motion.li>
             </motion.a>
-            {
-              props.flag ? <motion.a variants={childNav} className={style.link} href="/wishlist">
+             <motion.a variants={childNav} className={style.link} href="/wishlist">
               <motion.li
                 className={style.mgn}
                 variants={onHover}
@@ -199,22 +150,6 @@ const Navbar = (props) => {
                 WishList
               </motion.li>
             </motion.a>
-            :
-              <motion.a variants={childNav} className={style.link} href="/register">
-              <motion.li
-                className={style.mgn}
-                variants={onHover}
-                whileHover={"hover"}
-                transition={{
-                  type: "tween",
-                  stiffness: 150,
-                  duration: 0.2,
-                }}
-              >
-                Register
-              </motion.li>
-            </motion.a>
-            }
             <motion.a variants={childNav} className={style.link} href="/property">
               <motion.li
                 className={style.mgn}
@@ -228,7 +163,7 @@ const Navbar = (props) => {
                 Property
               </motion.li>
             </motion.a>
-            <motion.a variants={childNav} className={style.link} href="/property">
+            <motion.a variants={childNav} className={style.link} href="/blog">
               <motion.li
                 className={style.mgn}
                 variants={onHover}
@@ -238,7 +173,7 @@ const Navbar = (props) => {
                   duration: 0.2,
                 }}
               >
-                Agents
+                Blog
               </motion.li>
             </motion.a>
           </motion.ul>
@@ -291,8 +226,7 @@ const Navbar = (props) => {
               </div>
             </a>
             </li>
-            {
-              props.flag ? <li className={style.listTile}>
+             <li className={style.listTile}>
               <a href="/wishlist" className={style.link}>
                 <BsFillHeartFill className={style.homeIcon} />
                 <div className={style.headHome}>
@@ -300,16 +234,6 @@ const Navbar = (props) => {
                 </div>
               </a>
               </li>
-              :
-              <li className={style.listTile}>
-            <a href="/register" className={style.link}>
-              <BsPersonCircle className={style.homeIcon} />
-              <div className={style.headHome}>
-              Register
-              </div>
-            </a>
-            </li>
-            }
             <li className={style.listTile}>
             <a href="/about" className={style.link}>
               <HiOutlineUserGroup className={style.homeIcon} />
@@ -326,8 +250,6 @@ const Navbar = (props) => {
               </div>
             </a>
             </li>
-            {
-            props.flag ? props.flag2 ? 
             <li className={style.listTile}>
             <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
               <BsBuildingFillAdd className={style.homeIcon} />
@@ -336,24 +258,6 @@ const Navbar = (props) => {
               </div>
             </a>
             </li>
-            :
-            <li className={style.listTile}>
-            <a href="/joinus" className={style.link}>
-              <MdPeopleAlt className={style.homeIcon} />
-              <div className={style.headHome}>
-              Join Us
-              </div>
-            </a>
-            </li>
-            :<li className={style.listTile}>
-            <a href="/login" className={style.link}>
-            <BsPersonCircle className={style.homeIcon} />
-              <div className={style.headHome}>
-              LogIn
-              </div>
-            </a>
-            </li>
-            }
           </ul>
         </motion.div>
       </nav>

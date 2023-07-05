@@ -22,26 +22,9 @@ export async function getServerSideProps(context){
 }
 
 export default function Home({data}) {
-  const [flag,setFlag] = useState(false);
-  const [flag2,setFlag2] = useState(false);
-  useEffect(()=>{
-    axios.get("http://localhost:4000/checklog").then((res)=>{
-      console.log(res.data);
-    if(res.data.message1 == true){
-      setFlag(true)
-    }else{
-      setFlag(false)
-    }
-    if(res.data.message2 == true){
-      setFlag2(true)
-    }else{
-      setFlag2(false)
-    }
-  })
-  },[])
   return (
     <>
-      <Navbar flag = {flag} flag2 = {flag2} />
+      <Navbar />
       <Carousel />
       <Searchbar />
       <Section />
