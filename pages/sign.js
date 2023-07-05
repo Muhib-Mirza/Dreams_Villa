@@ -124,7 +124,7 @@ const Signin = () => {
             </SwiperSlide>
         <SwiperSlide>
         <div className={style.sliderbody}>
-            <img src="/cityscape.png" alt="log" className={style.sliderimage} />
+            <img src="/office.png" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>
               Empowering Your Real Estate Journey
             </h3>
