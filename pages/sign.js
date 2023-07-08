@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, EffectCreative } from "swiper";
 
 
-import style from "../styles/Log.module.css"
+import style from "../styles/SignIN.module.css"
 import { useState } from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -221,8 +221,6 @@ const Signin = () => {
             Don't have an Account?<a href="/register" className={style.link} >Register Now</a>
           </div>
         </form>
-        
-      <div className={style.blackBox}></div>
       </div>
       <Fotter />
       <ToastContainer />

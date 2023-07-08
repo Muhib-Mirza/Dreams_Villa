@@ -46,13 +46,6 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
-/* .blackBox{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    background-color: rgba(0,0,0,0.3);
-} */
-
 .form{
     display: flex;
     align-items: center;

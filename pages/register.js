@@ -293,12 +293,13 @@ const Joinus = () => {
               required
             />
           </div>
-          <div className={style.inptContainer}>
+          <div className={`${style.inptContainer} ${style.filecont}`}>
+            <span className={style.span}>Enter Avatar :</span>
             <input
               type="file"
               name="image"
               onChange={handleImage}
-              className={style.input}
+              className={`${style.input} ${style.file}`}
             placeholder="Enter Image"
               required
             />
