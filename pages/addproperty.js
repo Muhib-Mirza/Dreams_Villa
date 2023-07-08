@@ -6,7 +6,11 @@ const AddProperty = () => {
     const router = useRouter();
     const [flag,setFlag] = useState(false);
     useEffect(()=>{
-        const resp = axios.get("http://localhost:4000/checklog");
+        const resp = axios.get("http://localhost:4000/checklog",{
+            headers:{
+                jwt:document.cookie
+            }
+        });
         resp.then(({data})=>{
             console.log(data.message1)
             if(data.message1 == "Failed"){
