@@ -28,11 +28,8 @@
 .sliderimage{
     margin-bottom: 0.5rem;
     width: 20rem;
-<<<<<<< HEAD:styles/SignIN.module.css
     filter: invert(1);
-=======
     filter:invert(0.95)
->>>>>>> f0fa335b07e296670d4aa8ee920d90cf0f602764:styles/Log.module.css
 }
 
 .swiper{
