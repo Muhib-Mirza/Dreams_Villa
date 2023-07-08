@@ -7,7 +7,6 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: darken;
 }
 
 .slidercontainer{
@@ -28,11 +27,7 @@
 .sliderimage{
     margin-bottom: 0.5rem;
     width: 20rem;
-<<<<<<< HEAD:styles/SignIN.module.css
-    filter: invert(1);
-=======
     filter:invert(0.95)
->>>>>>> f0fa335b07e296670d4aa8ee920d90cf0f602764:styles/Log.module.css
 }
 
 .swiper{
@@ -50,6 +45,13 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
+.blackBox{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+
 .form{
     display: flex;
     align-items: center;
@@ -59,11 +61,10 @@
     height: 30rem;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: -3px -3px 3px rgba(255,255,255,0.1);
+    box-shadow: 3px 3px 3px rgba(255,255,255,0.4);
     margin-top: 6rem;
     background-color: rgba(0,0,0,0.3);
     z-index: 10;
-    margin-bottom: 0.8rem;
 }
 
 .logo{
