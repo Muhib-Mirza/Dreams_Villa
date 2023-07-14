@@ -54,7 +54,7 @@ const Joinus = () => {
     formdata.append("pass",user.pass);
     formdata.append("contact",user.contact);
     formdata.append("avatar",image);
-    axios.post("http://localhost:4000/register", formdata).then((result) => {
+    axios.post("https://real-estate-d96g.onrender.com/register", formdata).then((result) => {
       console.log(result.data);
       if(result.data.message === "Success"){
         toast.success("User Added");
