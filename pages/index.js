@@ -12,7 +12,8 @@ import Cards from "@/Component/Homepage/Cards";
 
 export async function getServerSideProps(context){
   
-  const res = await axios.get("http://localhost:4000/homedata");
+  // const res = await axios.get("http://localhost:4000/homedata");
+  const res = await axios.get("https://real-estate-d96g.onrender.com/homedata");
   const resp = res.data;
   return{
     props:{
