@@ -6,7 +6,7 @@ const AddProperty = () => {
     const router = useRouter();
     const [flag,setFlag] = useState(false);
     useEffect(()=>{
-        const resp = axios.get("https://real-estate-d96g.onrender.com/checklog",{
+        const resp = axios.get("http://localhost:4000/checklog",{
             headers:{
                 jwt:document.cookie
             }

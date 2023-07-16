@@ -58,9 +58,8 @@
   flex-direction: row;
 }
 
-.mgn {
+.navText {
   color: white;
-  width: 4rem;
   text-align: center;
   height: 1.5rem;
   padding-top: 3px;

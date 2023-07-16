@@ -49,6 +49,11 @@
   width: 30rem;
   font-family: "Nunito Sans", sans-serif;
   color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+}
+
+.counterContainer{
+  width: 30rem;
 }
 
 .years {

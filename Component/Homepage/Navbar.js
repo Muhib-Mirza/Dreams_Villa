@@ -4,13 +4,12 @@ import Head from "next/head";
 import { useState } from "react";
 import React from 'react';
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
-import { BsPersonCircle, BsFillHeartFill, BsBuildingFillAdd } from "react-icons/bs";
+import { BsFillHeartFill, BsBuildingFillAdd } from "react-icons/bs";
 import { RxCross1 } from "react-icons/rx";
 import { HiOutlineHome , HiPhone , HiOutlineUserGroup } from "react-icons/hi";
-import { MdPeopleAlt } from "react-icons/md";
 
 
-const Navbar = (props) => {
+const Navbar = () => {
   const parentNav={
     initial:{
       opacity:0
@@ -98,7 +97,7 @@ const Navbar = (props) => {
           >
             <motion.a variants={childNav} className={`${style.link} ${style.nomgn}`} href="/">
               <motion.li
-                className={style.mgn}
+                className={style.navText}
                 variants={onHover}
                 whileHover={"hover"}
                 transition={{
@@ -117,28 +116,44 @@ const Navbar = (props) => {
                   type: "tween",
                   duration: 0.2,
                 }}
-                className={style.mgn}
+                className={style.navText}
               >
                 About
               </motion.li>
             </motion.a>
-            <motion.a variants={childNav} className={style.link} href="/contact">
+            <motion.a variants={childNav} className={style.link} href="/property" style={{
+              width:"6rem"
+            }} >
               <motion.li
-                className={style.mgn}
+                className={style.navText}
                 variants={onHover}
                 whileHover={"hover"}
                 transition={{
                   type: "tween",
-                  stiffness: 150,
                   duration: 0.2,
                 }}
               >
-                Contact
+                Property
               </motion.li>
             </motion.a>
-             <motion.a variants={childNav} className={style.link} href="/wishlist">
+            <motion.a variants={childNav} className={style.link} href="/blog" style={{
+              width:"4rem"
+            }} >
               <motion.li
-                className={style.mgn}
+                className={style.navText}
+                variants={onHover}
+                whileHover={"hover"}
+                transition={{
+                  type: "tween",
+                  duration: 0.2,
+                }}
+              >
+                Blog
+              </motion.li>
+            </motion.a>
+            <motion.a variants={childNav} className={style.link} href="/wishlist">
+              <motion.li
+                className={style.navText}
                 variants={onHover}
                 whileHover={"hover"}
                 transition={{
@@ -150,30 +165,18 @@ const Navbar = (props) => {
                 WishList
               </motion.li>
             </motion.a>
-            <motion.a variants={childNav} className={style.link} href="/property">
+            <motion.a variants={childNav} className={style.link} href="/contact">
               <motion.li
-                className={style.mgn}
+                className={style.navText}
                 variants={onHover}
                 whileHover={"hover"}
                 transition={{
                   type: "tween",
+                  stiffness: 150,
                   duration: 0.2,
                 }}
               >
-                Property
-              </motion.li>
-            </motion.a>
-            <motion.a variants={childNav} className={style.link} href="/blog">
-              <motion.li
-                className={style.mgn}
-                variants={onHover}
-                whileHover={"hover"}
-                transition={{
-                  type: "tween",
-                  duration: 0.2,
-                }}
-              >
-                Blog
+                Contact
               </motion.li>
             </motion.a>
           </motion.ul>
