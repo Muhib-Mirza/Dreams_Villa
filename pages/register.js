@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import style from "@/styles/Login.module.css";
+import style from "@/styles/login/Login.module.css";
 import { motion } from "framer-motion";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

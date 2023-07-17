@@ -93,6 +93,9 @@
         width: 95vw;
         margin-top: 5rem;
       }
+      .counterContainer{
+        width: auto;
+      }
       .image {
         width: 19.2rem;
         height: 57.7rem;
@@ -127,6 +130,9 @@
   .container {
     width: 95vw;
     margin-top: 5rem;
+  }
+  .counterContainer{
+    width: auto;
   }
   .image {
     width: 19.2rem;
@@ -184,6 +190,9 @@
         width: 22rem;
         font-size: 1.9rem;
       }
+      .counterContainer{
+        width: auto;
+      }
       .years{
         width: 13rem;
         font-size: 0.94rem;
@@ -212,7 +221,6 @@
   }
   .aboutText {
     width: 24rem;
-    text-align: center;
     margin-top: 1rem;
   }
   .aboutPic{ 
@@ -222,6 +230,7 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    width: auto;
   }
   .aboutHead {
     display: block;
@@ -250,13 +259,13 @@
   }
   .aboutText {
     width: 22rem;
-    text-align:center;
     margin-top: 1rem;
   }
   .counterContainer {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    width: auto;
   }
   .aboutPic {
     display: none;
@@ -287,13 +296,13 @@
   }
   .aboutText {
     width: 29rem;
-    text-align: center;
     margin-top: 1rem;
   }
   .counterContainer {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    width: auto;
   }
   .aboutPic {
     display: none;
@@ -328,14 +337,13 @@
     align-items: center;
   }
   .aboutText {
-    font-size: small;
-    width: 22rem;
-    text-align: center;
+    width: 23rem;
     margin-top: 1rem;
   }
   .counterContainer {
     margin-top: 1rem;
     display: flex;
+    width: auto;
     flex-direction: column;
   }
   .aboutPic {
@@ -374,15 +382,14 @@
     align-items: center;
   }
   .aboutText {
-    font-size: small;
-    width: 19rem;
-    text-align: center;
+    width: 20rem;
     margin-top: 1rem;
   }
   .counterContainer {
     margin-top:1rem;
     display: flex;
     flex-direction: column;
+    width:auto;
   }
   .aboutPic {
     display: none;
