@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../../public/errorback.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.statusCode{
+    border-bottom: 4px solid whitesmoke;
+    width: 10rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 0.6rem;
+    font-size: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    z-index: 1;
+}
+
+.errorLine{
+    margin-top: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: whitesmoke;
+    z-index: 1;
+}
+
+.btn{
+    width: 10rem;
+    color: whitesmoke;
+    height: 3rem;
+    background: transparent;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0,0.6);
+    border: 4px solid #00D4FF;
+    font-weight: 700;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255,0.5 );
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.blackBox{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0,0.5);
+    position: absolute;
+    top:0;
+    z-index: 0;
+}
+
+@media screen and (max-width:500px) {
+    .errorLine{
+        text-align: center;
+        width: 20rem;
+    }
+}
