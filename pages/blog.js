@@ -1,7 +1,9 @@
 import React from "react";
 import style from "@/styles/Blogpage/blog.module.css";
-import Navbar from "@/Component/Homepage/Navbar";
-import Fotter from "@/Component/Homepage/Fotter";
+import Navbar from "@/Component/Navbar";
+import Fotter from "@/Component/Fotter";
+import Cards from "@/Component/Blog/Card";
+import Cards2 from "@/Component/Blog/Card2";
 
 const Blog = () => {
     return ( 
@@ -18,6 +20,8 @@ const Blog = () => {
         <div className={style.blogHeading}>Blog</div>
         </div>
         </div>
+        <Cards />
+        <Cards2 />
         <Fotter />
         </>
      );

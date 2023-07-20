@@ -3,8 +3,8 @@ import axios from "axios";
 
 import Carousel from "@/Component/Homepage/Carousel";
 import Searchbar from "@/Component/Homepage/SearchBar";
-import Fotter from "@/Component/Homepage/Fotter";
-import Navbar from "@/Component/Homepage/Navbar";
+import Fotter from "@/Component/Fotter";
+import Navbar from "@/Component/Navbar";
 import About from "@/Component/Homepage/about";
 import Section from "@/Component/Homepage/Section";
 import Cards from "@/Component/Homepage/Cards";

@@ -222,6 +222,14 @@ const Navbar = () => {
             </a>
             </li>
             <li className={style.listTile}>
+            <a href="/about" className={style.link}>
+              <HiOutlineUserGroup className={style.homeIcon} />
+              <div className={style.headHome}>
+              About
+              </div>
+            </a>
+            </li>
+            <li className={style.listTile}>
             <a href="/property" className={style.link}>
               <HiOutlineBuildingOffice2 className={style.homeIcon} />
               <div className={`${style.headHome} ${style.propt}`}>
@@ -229,6 +237,14 @@ const Navbar = () => {
               </div>
             </a>
             </li>
+            <li className={style.listTile}>
+              <a href="/blog" className={style.link}>
+                <BsFillHeartFill className={style.homeIcon} />
+                <div className={style.headHome}>
+                Blog
+                </div>
+              </a>
+              </li>
              <li className={style.listTile}>
               <a href="/wishlist" className={style.link}>
                 <BsFillHeartFill className={style.homeIcon} />
@@ -237,14 +253,6 @@ const Navbar = () => {
                 </div>
               </a>
               </li>
-            <li className={style.listTile}>
-            <a href="/about" className={style.link}>
-              <HiOutlineUserGroup className={style.homeIcon} />
-              <div className={style.headHome}>
-              About
-              </div>
-            </a>
-            </li>
             <li className={style.listTile}>
             <a href="/contact" className={style.link}>
               <HiPhone className={style.homeIcon} />

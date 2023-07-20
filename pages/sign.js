@@ -12,8 +12,8 @@ import { motion } from "framer-motion";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from "next/router";
-import Navbar from "@/Component/Homepage/Navbar";
-import Fotter from "@/Component/Homepage/Fotter";
+import Navbar from "@/Component/Navbar";
+import Fotter from "@/Component/Fotter";
 import axios from "axios";
 
 const Signin = () => {
@@ -116,7 +116,7 @@ const Signin = () => {
       >
         <SwiperSlide>
             <div className={style.sliderbody}>
-            <img src="/buildingbg.png" alt="log" className={style.sliderimage} />
+            <img src="/Login/buildingbg.png" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>Browse a Wide Range of Properties</h3>
             <div className={style.slidertext}>
               Explore thousand of property listings and save your favorites across devices
@@ -125,7 +125,7 @@ const Signin = () => {
             </SwiperSlide>
         <SwiperSlide>
         <div className={style.sliderbody}>
-            <img src="/office.png" alt="log" className={style.sliderimage} />
+            <img src="/Login/office.png" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>
               Empowering Your Real Estate Journey
             </h3>
@@ -139,11 +139,11 @@ const Signin = () => {
       </div>
       <form onSubmit={handleSubmit} className={style.form}>
           <div className={style.logo}>
-            <img src="/logo.png" alt="" className={style.logoimage} />
+            <img src="/Login/logo.png" alt="" className={style.logoimage} />
           </div>
           <h1 className={style.heading}>Log In</h1>
           <div className={style.inptContainer}>
-          <motion.img src="/email.png" alt="" className={style.image} 
+          <motion.img src="/Login/email.png" alt="" className={style.image} 
             initial={{
               bottom:"0.5rem"
             }}
@@ -176,7 +176,7 @@ const Signin = () => {
             />
           </div>
           <div className={style.inptContainer}>
-            <motion.img src="/lock.png" alt="" className={style.image} 
+            <motion.img src="/Login/lock.png" alt="" className={style.image} 
             initial={{
               bottom:"0.5rem"
             }}

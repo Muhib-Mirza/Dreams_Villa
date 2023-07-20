@@ -11,8 +11,8 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import { Autoplay, Pagination, EffectCreative } from "swiper";
-import Navbar from "@/Component/Homepage/Navbar";
-import Fotter from "@/Component/Homepage/Fotter";
+import Navbar from "@/Component/Navbar";
+import Fotter from "@/Component/Fotter";
 
 const Joinus = () => {
   const router = useRouter();
@@ -132,7 +132,7 @@ const Joinus = () => {
       >
         <SwiperSlide>
             <div className={style.sliderbody}>
-            <img src="/buildingbg.png" alt="log" className={style.sliderimage} />
+            <img src="/Login/buildingbg.png" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>Browse a Wide Range of Properties</h3>
             <div className={style.slidertext}>
               Explore thousand of property listings and save your favorites across devices
@@ -141,7 +141,7 @@ const Joinus = () => {
             </SwiperSlide>
         <SwiperSlide>
         <div className={style.sliderbody}>
-            <img src="/office.png" alt="log" className={style.sliderimage} />
+            <img src="/Login/office.png" alt="log" className={style.sliderimage} />
             <h3 className={style.sliderhead}>
               Empowering Your Real Estate Journey
             </h3>
@@ -155,11 +155,11 @@ const Joinus = () => {
       </div>
         <form onSubmit={handleSubmit} className={style.form}>
           <div className={style.logo}>
-            <img src="/logo.png" alt="" className={style.logoimage} />
+            <img src="/Login/logo.png" alt="" className={style.logoimage} />
           </div>
           <h1 className={style.heading}>Sign Up</h1>
           <div className={style.inptContainer}>
-            <motion.img src="/user.png" alt="" className={style.image} 
+            <motion.img src="/Login/user.png" alt="" className={style.image} 
             initial={{
               bottom:"0.5rem"
             }}
@@ -193,7 +193,7 @@ const Joinus = () => {
             />
           </div>
           <div className={style.inptContainer}>
-          <motion.img src="/email.png" alt="" className={style.image} 
+          <motion.img src="/Login/email.png" alt="" className={style.image} 
             initial={{
               bottom:"0.5rem"
             }}
@@ -226,7 +226,7 @@ const Joinus = () => {
             />
           </div>
           <div className={style.inptContainer}>
-            <motion.img src="/lock.png" alt="" className={style.image} 
+            <motion.img src="/Login/lock.png" alt="" className={style.image} 
             initial={{
               bottom:"0.5rem"
             }}
@@ -260,7 +260,7 @@ const Joinus = () => {
             />
           </div>
           <div className={style.inptContainer}>
-            <motion.img src="/phone.png" alt="" className={style.image} 
+            <motion.img src="/Login/phone.png" alt="" className={style.image} 
             initial={{
               bottom:"0.5rem"
             }}

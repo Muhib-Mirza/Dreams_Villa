@@ -129,7 +129,7 @@ const Cards = (props) => {
                   <img
                     src={curElem.houseImage}
                     alt="No image"
-                    className={` ${cstyle.cImage} cimg`}
+                    className={cstyle.cImage}
                   />
                   <div className={cstyle.dealer}>
                     <img
