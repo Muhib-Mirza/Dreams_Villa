@@ -22,6 +22,21 @@
   position: relative;
 }
 
+.card2 {
+  margin-top: 0.5rem;
+  display: block;
+  height: 36.5rem;
+  width: 21rem;
+  text-decoration: none;
+  color: black;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
 .cardImage {
   width: 100%;
 }
