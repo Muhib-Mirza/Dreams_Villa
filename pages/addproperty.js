@@ -6,7 +6,7 @@ const AddProperty = () => {
     const router = useRouter();
     const [flag,setFlag] = useState(false);
     useEffect(()=>{
-        const resp = axios.get("http://localhost:4000/checklog",{
+        const resp = axios.get("http://localhost:4000/authentication",{
             headers:{
                 jwt:document.cookie
             }

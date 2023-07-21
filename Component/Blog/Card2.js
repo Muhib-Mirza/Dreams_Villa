@@ -55,7 +55,7 @@ const Card = () => {
         animate={animeflag ? "animate" : "hidden"}
       >
         <motion.div className={style.card} variants={childVariant} style={{
-          height:"33rem"
+          height:"34rem !important"
         }}>
           <img
             src="/Blog/explore1.png"
@@ -73,7 +73,7 @@ const Card = () => {
         </motion.div>
 
         <motion.div className={style.card} variants={childVariant} style={{
-          height:"33rem"
+          height:"34rem !important"
         }}>
           <img
             src="/Blog/explore3.png"
@@ -91,7 +91,7 @@ const Card = () => {
         </motion.div>
 
         <motion.div className={style.card} variants={childVariant} style={{
-          height:"33rem"
+          height:"34rem !important"
         }}>
           <img
             src="/Blog/explore2.png"
