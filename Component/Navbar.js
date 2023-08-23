@@ -7,6 +7,7 @@ import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 import { BsFillHeartFill, BsBuildingFillAdd } from "react-icons/bs";
 import { RxCross1 } from "react-icons/rx";
 import { HiOutlineHome , HiPhone , HiOutlineUserGroup } from "react-icons/hi";
+import { FaBloggerB } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -239,7 +240,7 @@ const Navbar = () => {
             </li>
             <li className={style.listTile}>
               <a href="/blog" className={style.link}>
-                <BsFillHeartFill className={style.homeIcon} />
+                <FaBloggerB className={style.homeIcon} />
                 <div className={style.headHome}>
                 Blog
                 </div>
@@ -258,142 +259,6 @@ const Navbar = () => {
               <HiPhone className={style.homeIcon} />
               <div className={`${style.headHome} ${style.propt}`}>
               Contact
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
-              </div>
-            </a>
-            </li>
-            <li className={style.listTile}>
-            <a href="/addproperty" className={`${style.link} ${style.drawerpropt}`}>
-              <BsBuildingFillAdd className={style.homeIcon} />
-              <div className={style.headHome}>
-              Submit Property
               </div>
             </a>
             </li>
